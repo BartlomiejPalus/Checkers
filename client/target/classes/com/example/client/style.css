@@ -1,0 +1,16 @@
+.tekst {
+    -fx-highlight-fill: white;
+    -fx-font-weight: bold;
+}
+.button {
+    -fx-background-color: rgb(127, 166, 80);
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: rgb(149, 187, 74);
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(149, 187, 74, 0.8), 10, 0, 0, 0);
+}

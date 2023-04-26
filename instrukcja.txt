@@ -1,0 +1,15 @@
+aby uruchomić program należy:
+-włączyć serwer Apache i MySQL w xampp
+-utworzyć bazę danych na serwerze MySQL za pomocą podanego skryptu:
+
+CREATE DATABASE warcaby;
+USE warcaby;
+CREATE TABLE dane_logowania(id int, login text, haslo text);
+INSERT INTO dane_logowania VALUES(1, 'admin', 'admin');
+INSERT INTO dane_logowania VALUES(2, 'gracz', 'haslo');
+INSERT INTO dane_logowania VALUES(3, 'student', 'student');
+INSERT INTO dane_logowania VALUES(4, 'abc', 'abc');
+
+-wejść do folderu server\out\artifacts\server_jar
+-uruchomić server za pomocą komendy java -jar server.jar
+-uruchomić klientów uruchamiając plik "client — skrót" poprzez podwójne kliknięcie
